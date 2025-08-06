@@ -1,10 +1,10 @@
-from pyexpat import model
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate, load_prompt
 from dotenv import load_dotenv
 import streamlit as st
 
 load_dotenv()
+model = ChatOpenAI
 
 st.header("Reasearch Tool")
 
